@@ -1,0 +1,1001 @@
+[2022-11-26T21:24:02.531+0000] {processor.py:154} INFO - Started process (PID=7689) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:02.532+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:02.533+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:02.533+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:02.542+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:02.559+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.033 seconds
+[2022-11-26T21:24:04.548+0000] {processor.py:154} INFO - Started process (PID=7694) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:04.549+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:04.550+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:04.550+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:04.560+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:04.559+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 6, in <module>
+    defa
+NameError: name 'defa' is not defined
+[2022-11-26T21:24:04.561+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:04.593+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.050 seconds
+[2022-11-26T21:24:06.610+0000] {processor.py:154} INFO - Started process (PID=7699) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:06.610+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:06.611+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:06.610+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:06.615+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:06.614+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 6, in <module>
+    default
+NameError: name 'default' is not defined
+[2022-11-26T21:24:06.615+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:06.631+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.025 seconds
+[2022-11-26T21:24:08.662+0000] {processor.py:154} INFO - Started process (PID=7704) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:08.662+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:08.663+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:08.663+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:08.668+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:08.667+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 6, in <module>
+    default_args
+NameError: name 'default_args' is not defined
+[2022-11-26T21:24:08.668+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:08.686+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.027 seconds
+[2022-11-26T21:24:11.727+0000] {processor.py:154} INFO - Started process (PID=7723) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:11.727+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:11.728+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:11.728+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:11.733+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:11.748+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.024 seconds
+[2022-11-26T21:24:12.743+0000] {processor.py:154} INFO - Started process (PID=7728) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:12.744+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:12.745+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:12.745+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:12.754+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:12.772+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.034 seconds
+[2022-11-26T21:24:15.815+0000] {processor.py:154} INFO - Started process (PID=7738) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:15.815+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:15.816+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:15.816+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:15.820+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:15.833+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.021 seconds
+[2022-11-26T21:24:18.841+0000] {processor.py:154} INFO - Started process (PID=7743) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:18.842+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:18.843+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:18.843+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:18.853+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:18.871+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.035 seconds
+[2022-11-26T21:24:20.884+0000] {processor.py:154} INFO - Started process (PID=7748) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:20.885+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:20.885+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:20.885+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:20.887+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:20.886+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 9
+    }
+    ^
+SyntaxError: invalid syntax
+[2022-11-26T21:24:20.888+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:20.909+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.027 seconds
+[2022-11-26T21:24:23.924+0000] {processor.py:154} INFO - Started process (PID=7762) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:23.925+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:23.925+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:23.925+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:23.927+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:23.926+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 9
+    }
+    ^
+SyntaxError: invalid syntax
+[2022-11-26T21:24:23.927+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:23.944+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.022 seconds
+[2022-11-26T21:24:29.133+0000] {processor.py:154} INFO - Started process (PID=7777) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:29.135+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:29.136+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:29.136+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:29.145+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:29.162+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.034 seconds
+[2022-11-26T21:24:30.174+0000] {processor.py:154} INFO - Started process (PID=7782) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:30.175+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:30.175+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:30.175+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:30.177+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:30.176+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 10
+    }
+    ^
+SyntaxError: invalid syntax
+[2022-11-26T21:24:30.178+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:30.196+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.025 seconds
+[2022-11-26T21:24:32.209+0000] {processor.py:154} INFO - Started process (PID=7787) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:32.210+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:32.211+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:32.211+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:32.215+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:32.213+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 10
+    }
+    ^
+SyntaxError: invalid syntax
+[2022-11-26T21:24:32.215+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:32.241+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.037 seconds
+[2022-11-26T21:24:35.246+0000] {processor.py:154} INFO - Started process (PID=7802) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:35.247+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:35.248+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:35.248+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:35.249+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:35.249+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 10
+    }
+    ^
+SyntaxError: invalid syntax
+[2022-11-26T21:24:35.250+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:35.270+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.026 seconds
+[2022-11-26T21:24:36.294+0000] {processor.py:154} INFO - Started process (PID=7807) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:36.295+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:36.296+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:36.296+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:36.299+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:36.298+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 10
+    }
+    ^
+SyntaxError: invalid syntax
+[2022-11-26T21:24:36.300+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:36.319+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.030 seconds
+[2022-11-26T21:24:44.509+0000] {processor.py:154} INFO - Started process (PID=7822) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:44.510+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:44.511+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:44.511+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:44.520+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:44.538+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.032 seconds
+[2022-11-26T21:24:47.527+0000] {processor.py:154} INFO - Started process (PID=7836) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:47.528+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:47.529+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:47.528+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:47.530+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:47.530+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 9
+    'retry_delay': timedelta(minutes=)
+                                     ^
+SyntaxError: invalid syntax
+[2022-11-26T21:24:47.531+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:47.546+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.021 seconds
+[2022-11-26T21:24:48.543+0000] {processor.py:154} INFO - Started process (PID=7841) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:48.544+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:48.545+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:48.544+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:48.550+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:48.565+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.025 seconds
+[2022-11-26T21:24:51.588+0000] {processor.py:154} INFO - Started process (PID=7846) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:51.589+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:24:51.590+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:24:51.590+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:51.594+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:24:51.608+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.022 seconds
+[2022-11-26T21:25:06.820+0000] {processor.py:154} INFO - Started process (PID=7870) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:06.821+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:25:06.822+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:06.822+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:06.824+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:06.823+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 13
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2022-11-26T21:25:06.825+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:06.843+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.028 seconds
+[2022-11-26T21:25:18.054+0000] {processor.py:154} INFO - Started process (PID=7894) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:18.055+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:25:18.055+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:18.055+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:18.059+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:18.059+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 12, in <module>
+    with DAG() as dag:
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-11-26T21:25:18.060+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:18.077+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.026 seconds
+[2022-11-26T21:25:22.089+0000] {processor.py:154} INFO - Started process (PID=7908) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:22.090+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:25:22.092+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:22.091+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:22.102+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:22.100+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 12, in <module>
+    with DAG() as dag:
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-11-26T21:25:22.103+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:22.135+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.050 seconds
+[2022-11-26T21:25:23.128+0000] {processor.py:154} INFO - Started process (PID=7913) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:23.129+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:25:23.130+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:23.130+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:23.141+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:23.139+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 12, in <module>
+    with DAG() as dag:
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-11-26T21:25:23.142+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:23.169+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.046 seconds
+[2022-11-26T21:25:24.179+0000] {processor.py:154} INFO - Started process (PID=7918) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:24.180+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:25:24.181+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:24.181+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:24.192+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:24.191+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 12, in <module>
+    with DAG() as dag:
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-11-26T21:25:24.193+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:24.224+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.050 seconds
+[2022-11-26T21:25:32.432+0000] {processor.py:154} INFO - Started process (PID=7942) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:32.433+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:25:32.434+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:32.434+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:32.445+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:32.445+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 12, in <module>
+    with DAG() as dag:
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-11-26T21:25:32.446+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:32.471+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.042 seconds
+[2022-11-26T21:25:33.455+0000] {processor.py:154} INFO - Started process (PID=7947) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:33.455+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:25:33.456+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:33.456+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:33.461+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:33.460+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 12, in <module>
+    with DAG() as dag:
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-11-26T21:25:33.461+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:33.483+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.031 seconds
+[2022-11-26T21:25:38.535+0000] {processor.py:154} INFO - Started process (PID=7952) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:38.535+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:25:38.537+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:38.536+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:38.540+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:38.539+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 15
+    bash_co
+    ^
+SyntaxError: positional argument follows keyword argument
+[2022-11-26T21:25:38.541+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:38.572+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.042 seconds
+[2022-11-26T21:25:40.563+0000] {processor.py:154} INFO - Started process (PID=7957) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:40.564+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:25:40.566+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:40.565+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:40.569+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:40.568+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 15
+    bash_command
+    ^
+SyntaxError: positional argument follows keyword argument
+[2022-11-26T21:25:40.570+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:40.598+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.040 seconds
+[2022-11-26T21:25:41.614+0000] {processor.py:154} INFO - Started process (PID=7962) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:41.615+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:25:41.616+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:41.616+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:41.618+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:41.617+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 16
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-11-26T21:25:41.618+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:41.635+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.023 seconds
+[2022-11-26T21:25:44.680+0000] {processor.py:154} INFO - Started process (PID=7981) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:44.681+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:25:44.682+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:44.682+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:44.686+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:44.684+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 16
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-11-26T21:25:44.686+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:44.714+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.039 seconds
+[2022-11-26T21:25:48.764+0000] {processor.py:154} INFO - Started process (PID=7991) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:48.765+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:25:48.766+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:48.766+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:48.777+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:48.775+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 12, in <module>
+    with DAG() as dag:
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-11-26T21:25:48.777+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:48.803+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.044 seconds
+[2022-11-26T21:25:54.799+0000] {processor.py:154} INFO - Started process (PID=8006) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:54.800+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:25:54.800+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:54.800+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:54.805+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:54.805+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 12, in <module>
+    with DAG() as dag:
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-11-26T21:25:54.806+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:54.827+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.030 seconds
+[2022-11-26T21:25:57.868+0000] {processor.py:154} INFO - Started process (PID=8016) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:57.869+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:25:57.869+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:57.869+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:57.874+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:25:57.874+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 12, in <module>
+    with DAG(
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-11-26T21:25:57.875+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:25:57.895+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.030 seconds
+[2022-11-26T21:26:01.942+0000] {processor.py:154} INFO - Started process (PID=8026) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:01.943+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:01.943+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:01.943+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:01.947+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:01.947+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 13, in <module>
+    default_args=defai
+NameError: name 'defai' is not defined
+[2022-11-26T21:26:01.947+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:01.964+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.024 seconds
+[2022-11-26T21:26:04.972+0000] {processor.py:154} INFO - Started process (PID=8031) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:04.973+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:04.974+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:04.974+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:04.984+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:04.983+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 13, in <module>
+    default_args=default
+NameError: name 'default' is not defined
+[2022-11-26T21:26:04.985+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:05.012+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.044 seconds
+[2022-11-26T21:26:07.009+0000] {processor.py:154} INFO - Started process (PID=8044) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:07.010+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:07.011+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:07.011+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:07.017+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:07.016+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 13, in <module>
+    default_args=default_args
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-11-26T21:26:07.018+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:07.041+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.035 seconds
+[2022-11-26T21:26:08.053+0000] {processor.py:154} INFO - Started process (PID=8049) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:08.054+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:08.055+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:08.055+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:08.066+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:08.064+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 13, in <module>
+    default_args=default_args,
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-11-26T21:26:08.066+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:08.083+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.035 seconds
+[2022-11-26T21:26:11.093+0000] {processor.py:154} INFO - Started process (PID=8054) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:11.094+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:11.095+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:11.095+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:11.097+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:11.096+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 14
+    dag_id
+    ^
+SyntaxError: positional argument follows keyword argument
+[2022-11-26T21:26:11.098+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:11.115+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.026 seconds
+[2022-11-26T21:26:12.126+0000] {processor.py:154} INFO - Started process (PID=8059) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:12.126+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:12.127+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:12.127+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:12.129+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:12.128+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 15
+    ) as dag:
+    ^
+SyntaxError: invalid syntax
+[2022-11-26T21:26:12.129+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:12.148+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.025 seconds
+[2022-11-26T21:26:23.319+0000] {processor.py:154} INFO - Started process (PID=8083) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:23.320+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:23.322+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:23.321+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:23.336+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:23.332+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 14, in <module>
+    dag_id=''
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 427, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key '' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-11-26T21:26:23.336+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:23.359+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.045 seconds
+[2022-11-26T21:26:25.369+0000] {processor.py:154} INFO - Started process (PID=8088) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:25.369+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:25.371+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:25.370+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:25.386+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:25.383+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 18, in <module>
+    bash_command="echo dag with cron expression!"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 147, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 888, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 995, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1053, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2314, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-11-26T21:26:25.387+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:25.419+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.056 seconds
+[2022-11-26T21:26:30.613+0000] {processor.py:154} INFO - Started process (PID=8112) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:30.615+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:30.616+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:30.616+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:30.634+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:30.630+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 18, in <module>
+    bash_command="echo dag with cron expression!"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 147, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 888, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 995, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1053, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2314, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-11-26T21:26:30.635+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:30.665+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.056 seconds
+[2022-11-26T21:26:35.662+0000] {processor.py:154} INFO - Started process (PID=8117) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:35.663+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:35.664+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:35.664+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:35.679+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:35.675+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 18, in <module>
+    bash_command="echo dag with cron expression!"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 147, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 888, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 995, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1053, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2314, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-11-26T21:26:35.680+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:35.704+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.047 seconds
+[2022-11-26T21:26:37.726+0000] {processor.py:154} INFO - Started process (PID=8122) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:37.727+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:37.728+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:37.728+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:37.746+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:37.742+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 19, in <module>
+    bash_command="echo dag with cron expression!"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 147, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 888, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 995, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1053, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2314, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-11-26T21:26:37.747+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:37.773+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.052 seconds
+[2022-11-26T21:26:39.747+0000] {processor.py:154} INFO - Started process (PID=8127) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:39.748+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:39.748+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:39.748+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:39.750+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:39.749+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 15
+    start_d
+    ^
+SyntaxError: positional argument follows keyword argument
+[2022-11-26T21:26:39.751+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:39.769+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.025 seconds
+[2022-11-26T21:26:41.779+0000] {processor.py:154} INFO - Started process (PID=8141) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:41.780+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:41.783+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:41.782+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:41.786+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:41.784+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 16
+    ) as dag:
+    ^
+SyntaxError: invalid syntax
+[2022-11-26T21:26:41.786+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:41.806+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.029 seconds
+[2022-11-26T21:26:43.849+0000] {processor.py:154} INFO - Started process (PID=8151) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:43.850+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:43.851+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:43.851+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:43.861+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:43.860+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 15, in <module>
+    start_date=dat
+NameError: name 'dat' is not defined
+[2022-11-26T21:26:43.862+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:43.880+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.037 seconds
+[2022-11-26T21:26:45.865+0000] {processor.py:154} INFO - Started process (PID=8156) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:45.866+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:45.866+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:45.866+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:45.872+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:45.871+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 15, in <module>
+    start_date=datetime()
+TypeError: function missing required argument 'year' (pos 1)
+[2022-11-26T21:26:45.872+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:45.903+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.042 seconds
+[2022-11-26T21:26:49.958+0000] {processor.py:154} INFO - Started process (PID=8166) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:49.959+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:49.961+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:49.960+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:49.971+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:49.970+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 15, in <module>
+    start_date=datetime(2022,11,)
+TypeError: function missing required argument 'day' (pos 3)
+[2022-11-26T21:26:49.972+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:49.994+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.040 seconds
+[2022-11-26T21:26:53.986+0000] {processor.py:154} INFO - Started process (PID=8181) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:53.987+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:26:53.988+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:53.988+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:54.014+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v01']) retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:26:54.158+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:54.157+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:dag_with_cron_expression_v01
+[2022-11-26T21:26:54.171+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:54.171+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:dag_with_cron_expression_v01
+[2022-11-26T21:26:54.179+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:54.179+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:dag_with_cron_expression_v01
+[2022-11-26T21:26:54.179+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:54.179+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-26T21:26:54.196+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:54.196+0000] {dag.py:2606} INFO - Creating ORM DAG for dag_with_cron_expression_v01
+[2022-11-26T21:26:54.211+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:26:54.211+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_with_cron_expression_v01 to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-26T21:26:54.235+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.255 seconds
+[2022-11-26T21:27:00.232+0000] {processor.py:154} INFO - Started process (PID=8196) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:00.232+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:27:00.233+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:00.233+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:00.234+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:00.234+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 16
+    schel
+    ^
+SyntaxError: positional argument follows keyword argument
+[2022-11-26T21:27:00.235+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:00.250+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.020 seconds
+[2022-11-26T21:27:02.260+0000] {processor.py:154} INFO - Started process (PID=8201) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:02.261+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:27:02.263+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:02.262+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:02.267+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:02.265+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 16
+    schedule
+    ^
+SyntaxError: positional argument follows keyword argument
+[2022-11-26T21:27:02.267+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:02.287+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.032 seconds
+[2022-11-26T21:27:04.293+0000] {processor.py:154} INFO - Started process (PID=8215) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:04.293+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:27:04.294+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:04.294+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:04.296+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:04.295+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 16
+    schedule_
+    ^
+SyntaxError: positional argument follows keyword argument
+[2022-11-26T21:27:04.297+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:04.318+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.027 seconds
+[2022-11-26T21:27:08.351+0000] {processor.py:154} INFO - Started process (PID=8220) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:08.352+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:27:08.353+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:08.352+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:08.356+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:08.355+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 16
+    schedule_interva
+    ^
+SyntaxError: positional argument follows keyword argument
+[2022-11-26T21:27:08.357+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:08.381+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.035 seconds
+[2022-11-26T21:27:12.388+0000] {processor.py:154} INFO - Started process (PID=8225) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:12.389+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:27:12.390+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:12.390+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:12.408+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:12.404+0000] {dagbag.py:439} ERROR - Failed to bag_dag: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 88, in validate
+    croniter(self._expression)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 166, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 778, in expand
+    return cls._expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 624, in _expand
+    raise CroniterBadCronError(cls.bad_length)
+croniter.croniter.CroniterBadCronError: Exactly 5 or 6 columns has to be specified for iterator expression.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 436, in _process_modules
+    dag.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 653, in validate
+    self.timetable.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 90, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: Exactly 5 or 6 columns has to be specified for iterator expression.
+[2022-11-26T21:27:12.408+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:12.430+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.047 seconds
+[2022-11-26T21:27:14.469+0000] {processor.py:154} INFO - Started process (PID=8235) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:14.470+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:27:14.471+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:14.471+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:14.505+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v01']) retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:14.532+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:14.532+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-26T21:27:14.568+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:14.568+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_with_cron_expression_v01 to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-26T21:27:14.592+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.129 seconds
+[2022-11-26T21:27:42.900+0000] {processor.py:154} INFO - Started process (PID=8285) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:42.902+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:27:42.903+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:42.903+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:42.906+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:42.905+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_cronn_expression.py", line 15
+    start_date=datetime(2022,11,01),
+                                 ^
+SyntaxError: invalid token
+[2022-11-26T21:27:42.906+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:42.930+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.035 seconds
+[2022-11-26T21:27:46.984+0000] {processor.py:154} INFO - Started process (PID=8299) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:46.985+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:27:46.985+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:46.985+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:47.007+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v01']) retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:27:47.130+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:47.130+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-26T21:27:47.166+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:27:47.166+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_with_cron_expression_v01 to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-26T21:27:47.197+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.216 seconds
+[2022-11-26T21:28:17.512+0000] {processor.py:154} INFO - Started process (PID=8430) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:28:17.513+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:28:17.517+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:28:17.516+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:28:17.543+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v01']) retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:28:17.585+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:28:17.585+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-26T21:28:17.621+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:28:17.621+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_with_cron_expression_v01 to 2022-11-26T00:00:00+00:00, run_after=2022-11-27T00:00:00+00:00
+[2022-11-26T21:28:17.644+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.135 seconds
+[2022-11-26T21:28:35.884+0000] {processor.py:154} INFO - Started process (PID=8459) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:28:35.884+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:28:35.885+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:28:35.885+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:28:35.894+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:28:35.892+0000] {dagbag.py:439} ERROR - Failed to bag_dag: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 88, in validate
+    croniter(self._expression)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 166, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 778, in expand
+    return cls._expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 624, in _expand
+    raise CroniterBadCronError(cls.bad_length)
+croniter.croniter.CroniterBadCronError: Exactly 5 or 6 columns has to be specified for iterator expression.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 436, in _process_modules
+    dag.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 653, in validate
+    self.timetable.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 90, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: Exactly 5 or 6 columns has to be specified for iterator expression.
+[2022-11-26T21:28:35.894+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:28:35.910+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.028 seconds
+[2022-11-26T21:28:37.906+0000] {processor.py:154} INFO - Started process (PID=8474) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:28:37.907+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:28:37.908+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:28:37.907+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:28:37.924+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v01']) retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:28:38.014+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:28:38.014+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-26T21:28:38.049+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:28:38.049+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_with_cron_expression_v01 to 2022-11-26T00:00:00+00:00, run_after=2022-11-27T00:00:00+00:00
+[2022-11-26T21:28:38.074+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.171 seconds
+[2022-11-26T21:29:08.392+0000] {processor.py:154} INFO - Started process (PID=8515) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:29:08.393+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:29:08.394+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:29:08.393+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:29:08.406+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v01']) retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:29:08.445+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:29:08.444+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-26T21:29:08.475+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:29:08.475+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_with_cron_expression_v01 to 2022-11-26T00:00:00+00:00, run_after=2022-11-27T00:00:00+00:00
+[2022-11-26T21:29:08.494+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.104 seconds
+[2022-11-26T21:29:38.764+0000] {processor.py:154} INFO - Started process (PID=8567) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:29:38.764+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:29:38.765+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:29:38.765+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:29:38.778+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v01']) retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:29:38.819+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:29:38.819+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-26T21:29:38.852+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:29:38.852+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_with_cron_expression_v01 to 2022-11-26T00:00:00+00:00, run_after=2022-11-27T00:00:00+00:00
+[2022-11-26T21:29:38.874+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.113 seconds
+[2022-11-26T21:30:09.165+0000] {processor.py:154} INFO - Started process (PID=8610) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:30:09.166+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:30:09.166+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:30:09.166+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:30:09.186+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v01']) retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:30:09.222+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:30:09.222+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-26T21:30:09.256+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:30:09.256+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_with_cron_expression_v01 to 2022-11-26T00:00:00+00:00, run_after=2022-11-27T00:00:00+00:00
+[2022-11-26T21:30:09.300+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.142 seconds
+[2022-11-26T21:30:20.509+0000] {processor.py:154} INFO - Started process (PID=8633) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:30:20.509+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:30:20.510+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:30:20.510+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:30:20.520+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:30:20.518+0000] {dagbag.py:439} ERROR - Failed to bag_dag: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 88, in validate
+    croniter(self._expression)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 166, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 778, in expand
+    return cls._expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 624, in _expand
+    raise CroniterBadCronError(cls.bad_length)
+croniter.croniter.CroniterBadCronError: Exactly 5 or 6 columns has to be specified for iterator expression.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 436, in _process_modules
+    dag.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 653, in validate
+    self.timetable.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 90, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: Exactly 5 or 6 columns has to be specified for iterator expression.
+[2022-11-26T21:30:20.520+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:30:20.538+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.033 seconds
+[2022-11-26T21:30:22.563+0000] {processor.py:154} INFO - Started process (PID=8647) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:30:22.563+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:30:22.564+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:30:22.564+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:30:22.572+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:30:22.571+0000] {dagbag.py:439} ERROR - Failed to bag_dag: /opt/airflow/dags/dag_with_cronn_expression.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 88, in validate
+    croniter(self._expression)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 166, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 778, in expand
+    return cls._expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 624, in _expand
+    raise CroniterBadCronError(cls.bad_length)
+croniter.croniter.CroniterBadCronError: Exactly 5 or 6 columns has to be specified for iterator expression.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 436, in _process_modules
+    dag.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 653, in validate
+    self.timetable.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 90, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: Exactly 5 or 6 columns has to be specified for iterator expression.
+[2022-11-26T21:30:22.573+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:30:22.589+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.030 seconds
+[2022-11-26T21:30:24.586+0000] {processor.py:154} INFO - Started process (PID=8652) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:30:24.587+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:30:24.588+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:30:24.588+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:30:24.621+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v01']) retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:30:24.719+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:30:24.719+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-26T21:30:24.753+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:30:24.753+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_with_cron_expression_v01 to 2022-11-22T03:00:00+00:00, run_after=2022-11-29T03:00:00+00:00
+[2022-11-26T21:30:24.779+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.198 seconds
+[2022-11-26T21:30:54.894+0000] {processor.py:154} INFO - Started process (PID=8695) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:30:54.895+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:30:54.896+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:30:54.896+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:30:54.920+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v01']) retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:30:54.962+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:30:54.961+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-26T21:30:54.994+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:30:54.994+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_with_cron_expression_v01 to 2022-11-22T03:00:00+00:00, run_after=2022-11-29T03:00:00+00:00
+[2022-11-26T21:30:55.014+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.125 seconds
+[2022-11-26T21:31:25.296+0000] {processor.py:154} INFO - Started process (PID=8748) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:31:25.297+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:31:25.298+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:31:25.297+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:31:25.312+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v01']) retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:31:25.353+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:31:25.352+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-26T21:31:25.386+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:31:25.386+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_with_cron_expression_v01 to 2022-11-22T03:00:00+00:00, run_after=2022-11-29T03:00:00+00:00
+[2022-11-26T21:31:25.406+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.112 seconds
+[2022-11-26T21:31:55.706+0000] {processor.py:154} INFO - Started process (PID=8801) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:31:55.707+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:31:55.707+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:31:55.707+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:31:55.722+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v01']) retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:31:55.760+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:31:55.760+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-26T21:31:55.794+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:31:55.794+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_with_cron_expression_v01 to 2022-11-22T03:00:00+00:00, run_after=2022-11-29T03:00:00+00:00
+[2022-11-26T21:31:55.814+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.112 seconds
+[2022-11-26T21:32:26.241+0000] {processor.py:154} INFO - Started process (PID=8844) to work on /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:32:26.241+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_with_cronn_expression.py for tasks to queue
+[2022-11-26T21:32:26.242+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:32:26.242+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:32:26.256+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_with_cron_expression_v01']) retrieved from /opt/airflow/dags/dag_with_cronn_expression.py
+[2022-11-26T21:32:26.291+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:32:26.291+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-26T21:32:26.322+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:32:26.321+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_with_cron_expression_v01 to 2022-11-22T03:00:00+00:00, run_after=2022-11-29T03:00:00+00:00
+[2022-11-26T21:32:26.343+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_with_cronn_expression.py took 0.105 seconds
