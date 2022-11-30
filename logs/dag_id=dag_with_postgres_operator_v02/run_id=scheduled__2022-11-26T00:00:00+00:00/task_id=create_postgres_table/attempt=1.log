@@ -1,0 +1,96 @@
+[2022-11-30T01:41:22.801+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator_v02.create_postgres_table scheduled__2022-11-26T00:00:00+00:00 [queued]>
+[2022-11-30T01:41:22.829+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator_v02.create_postgres_table scheduled__2022-11-26T00:00:00+00:00 [queued]>
+[2022-11-30T01:41:22.829+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-30T01:41:22.829+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 6
+[2022-11-30T01:41:22.829+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-30T01:41:22.869+0000] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): create_postgres_table> on 2022-11-26 00:00:00+00:00
+[2022-11-30T01:41:22.877+0000] {standard_task_runner.py:55} INFO - Started process 1312 to run task
+[2022-11-30T01:41:22.887+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_with_postgres_operator_v02', 'create_postgres_table', 'scheduled__2022-11-26T00:00:00+00:00', '--job-id', '144', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_postgres_operator.py', '--cfg-path', '/tmp/tmp0ze1k701']
+[2022-11-30T01:41:22.889+0000] {standard_task_runner.py:83} INFO - Job 144: Subtask create_postgres_table
+[2022-11-30T01:41:23.033+0000] {task_command.py:376} INFO - Running <TaskInstance: dag_with_postgres_operator_v02.create_postgres_table scheduled__2022-11-26T00:00:00+00:00 [running]> on host 2c9b3e546def
+[2022-11-30T01:41:23.150+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Bruno Lima
+AIRFLOW_CTX_DAG_ID=dag_with_postgres_operator_v02
+AIRFLOW_CTX_TASK_ID=create_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-26T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-26T00:00:00+00:00
+[2022-11-30T01:41:23.174+0000] {base.py:71} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2022-11-30T01:41:23.178+0000] {sql.py:315} INFO - Running statement: 
+            create table if not exists dag_runs(
+                dt date,
+                dag_id character varying,
+                primary key (dt, dag_id)
+            )
+        , parameters: None
+[2022-11-30T01:41:23.180+0000] {postgres.py:96} INFO - NOTICE:  relation "dag_runs" already exists, skipping
+
+[2022-11-30T01:41:23.194+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=dag_with_postgres_operator_v02, task_id=create_postgres_table, execution_date=20221126T000000, start_date=20221130T014122, end_date=20221130T014123
+[2022-11-30T01:41:23.218+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-11-30T01:41:23.246+0000] {taskinstance.py:2623} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-11-30T01:43:26.400+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator_v02.create_postgres_table scheduled__2022-11-26T00:00:00+00:00 [queued]>
+[2022-11-30T01:43:26.437+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator_v02.create_postgres_table scheduled__2022-11-26T00:00:00+00:00 [queued]>
+[2022-11-30T01:43:26.437+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-30T01:43:26.437+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 6
+[2022-11-30T01:43:26.437+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-30T01:43:26.525+0000] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): create_postgres_table> on 2022-11-26 00:00:00+00:00
+[2022-11-30T01:43:26.540+0000] {standard_task_runner.py:55} INFO - Started process 1571 to run task
+[2022-11-30T01:43:26.561+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_with_postgres_operator_v02', 'create_postgres_table', 'scheduled__2022-11-26T00:00:00+00:00', '--job-id', '157', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_postgres_operator.py', '--cfg-path', '/tmp/tmpeirf1pn3']
+[2022-11-30T01:43:26.568+0000] {standard_task_runner.py:83} INFO - Job 157: Subtask create_postgres_table
+[2022-11-30T01:43:26.734+0000] {task_command.py:376} INFO - Running <TaskInstance: dag_with_postgres_operator_v02.create_postgres_table scheduled__2022-11-26T00:00:00+00:00 [running]> on host 2c9b3e546def
+[2022-11-30T01:43:26.912+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Bruno Lima
+AIRFLOW_CTX_DAG_ID=dag_with_postgres_operator_v02
+AIRFLOW_CTX_TASK_ID=create_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-26T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-26T00:00:00+00:00
+[2022-11-30T01:43:26.925+0000] {base.py:71} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2022-11-30T01:43:26.929+0000] {sql.py:315} INFO - Running statement: 
+            create table if not exists dag_runs(
+                dt date,
+                dag_id character varying,
+                primary key (dt, dag_id)
+            )
+        , parameters: None
+[2022-11-30T01:43:26.931+0000] {postgres.py:96} INFO - NOTICE:  relation "dag_runs" already exists, skipping
+
+[2022-11-30T01:43:26.949+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=dag_with_postgres_operator_v02, task_id=create_postgres_table, execution_date=20221126T000000, start_date=20221130T014326, end_date=20221130T014326
+[2022-11-30T01:43:27.039+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-11-30T01:43:27.100+0000] {taskinstance.py:2623} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-11-30T01:44:24.606+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator_v02.create_postgres_table scheduled__2022-11-26T00:00:00+00:00 [queued]>
+[2022-11-30T01:44:24.660+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator_v02.create_postgres_table scheduled__2022-11-26T00:00:00+00:00 [queued]>
+[2022-11-30T01:44:24.660+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-30T01:44:24.660+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 6
+[2022-11-30T01:44:24.660+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-30T01:44:24.871+0000] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): create_postgres_table> on 2022-11-26 00:00:00+00:00
+[2022-11-30T01:44:24.875+0000] {standard_task_runner.py:55} INFO - Started process 1696 to run task
+[2022-11-30T01:44:24.885+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_with_postgres_operator_v02', 'create_postgres_table', 'scheduled__2022-11-26T00:00:00+00:00', '--job-id', '167', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_postgres_operator.py', '--cfg-path', '/tmp/tmp1olall6y']
+[2022-11-30T01:44:24.886+0000] {standard_task_runner.py:83} INFO - Job 167: Subtask create_postgres_table
+[2022-11-30T01:44:24.968+0000] {task_command.py:376} INFO - Running <TaskInstance: dag_with_postgres_operator_v02.create_postgres_table scheduled__2022-11-26T00:00:00+00:00 [running]> on host 2c9b3e546def
+[2022-11-30T01:44:25.110+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Bruno Lima
+AIRFLOW_CTX_DAG_ID=dag_with_postgres_operator_v02
+AIRFLOW_CTX_TASK_ID=create_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-26T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-26T00:00:00+00:00
+[2022-11-30T01:44:25.123+0000] {base.py:71} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2022-11-30T01:44:25.127+0000] {sql.py:315} INFO - Running statement: 
+            create table if not exists dag_runs(
+                dt date,
+                dag_id character varying,
+                primary key (dt, dag_id)
+            )
+        , parameters: None
+[2022-11-30T01:44:25.127+0000] {postgres.py:96} INFO - NOTICE:  relation "dag_runs" already exists, skipping
+
+[2022-11-30T01:44:25.144+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=dag_with_postgres_operator_v02, task_id=create_postgres_table, execution_date=20221126T000000, start_date=20221130T014424, end_date=20221130T014425
+[2022-11-30T01:44:25.175+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-11-30T01:44:25.211+0000] {taskinstance.py:2623} INFO - 1 downstream tasks scheduled from follow-on schedule check

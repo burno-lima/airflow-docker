@@ -3263,3 +3263,24 @@ SyntaxError: invalid syntax
 [2022-11-26T21:32:21.147+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:32:21.147+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2022-11-26T21:32:21.181+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:32:21.180+0000] {dag.py:3340} INFO - Setting next_dagrun for our_dag_with_python_operator_v06 to 2022-11-26T00:00:00+00:00, run_after=2022-11-27T00:00:00+00:00
 [2022-11-26T21:32:21.201+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.118 seconds
+[2022-11-26T21:32:51.599+0000] {processor.py:154} INFO - Started process (PID=8902) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2022-11-26T21:32:51.600+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2022-11-26T21:32:51.601+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:32:51.600+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2022-11-26T21:32:51.619+0000] {processor.py:766} INFO - DAG(s) dict_keys(['our_dag_with_python_operator_v06']) retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2022-11-26T21:32:51.658+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:32:51.658+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-26T21:32:51.691+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:32:51.690+0000] {dag.py:3340} INFO - Setting next_dagrun for our_dag_with_python_operator_v06 to 2022-11-26T00:00:00+00:00, run_after=2022-11-27T00:00:00+00:00
+[2022-11-26T21:32:51.719+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.123 seconds
+[2022-11-26T21:33:22.073+0000] {processor.py:154} INFO - Started process (PID=8945) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2022-11-26T21:33:22.074+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2022-11-26T21:33:22.075+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:33:22.075+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2022-11-26T21:33:22.092+0000] {processor.py:766} INFO - DAG(s) dict_keys(['our_dag_with_python_operator_v06']) retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2022-11-26T21:33:22.131+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:33:22.130+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-26T21:33:22.164+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:33:22.164+0000] {dag.py:3340} INFO - Setting next_dagrun for our_dag_with_python_operator_v06 to 2022-11-26T00:00:00+00:00, run_after=2022-11-27T00:00:00+00:00
+[2022-11-26T21:33:22.185+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.117 seconds
+[2022-11-26T21:33:52.495+0000] {processor.py:154} INFO - Started process (PID=8998) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2022-11-26T21:33:52.495+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2022-11-26T21:33:52.496+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:33:52.496+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2022-11-26T21:33:52.512+0000] {processor.py:766} INFO - DAG(s) dict_keys(['our_dag_with_python_operator_v06']) retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2022-11-26T21:33:52.550+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:33:52.550+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-26T21:33:52.584+0000] {logging_mixin.py:137} INFO - [2022-11-26T21:33:52.584+0000] {dag.py:3340} INFO - Setting next_dagrun for our_dag_with_python_operator_v06 to 2022-11-26T00:00:00+00:00, run_after=2022-11-27T00:00:00+00:00
+[2022-11-26T21:33:52.605+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.113 seconds

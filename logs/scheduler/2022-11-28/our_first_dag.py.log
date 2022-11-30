@@ -1,0 +1,7 @@
+[2022-11-28T02:20:57.230+0000] {processor.py:154} INFO - Started process (PID=1918) to work on /opt/airflow/dags/our_first_dag.py
+[2022-11-28T02:20:57.237+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/our_first_dag.py for tasks to queue
+[2022-11-28T02:20:57.238+0000] {logging_mixin.py:137} INFO - [2022-11-28T02:20:57.238+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/our_first_dag.py
+[2022-11-28T02:20:57.266+0000] {processor.py:766} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /opt/airflow/dags/our_first_dag.py
+[2022-11-28T02:20:57.375+0000] {logging_mixin.py:137} INFO - [2022-11-28T02:20:57.374+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-28T02:20:57.453+0000] {logging_mixin.py:137} INFO - [2022-11-28T02:20:57.452+0000] {dag.py:3340} INFO - Setting next_dagrun for our_first_dag_v5 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-28T02:20:57.529+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/our_first_dag.py took 0.301 seconds
